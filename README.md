@@ -1,43 +1,38 @@
-📈 LSTM Time Series Forecasting with Optuna (Regression)
-This project demonstrates how to build an automated LSTM model for time series regression using Keras and Optuna for hyperparameter tuning.
+# 📈 LSTM Time Series Forecasting with Optuna (Regression)
 
-🚀 Features
-Dynamic input reshaping based on time steps
+This project demonstrates how to build an **Automated LSTM model** for time series regression using **Keras** and **Optuna** for hyperparameter tuning.
 
-Custom LSTM model builder with flexible architecture
+## 🚀 Features
+- Dynamic input reshaping based on time steps
+- Custom LSTM model builder with flexible architecture
+- Optuna integration for tuning:
+  - Lookback window
+  - Number of LSTM layers and units
+  - Dropout rate
+  - Batch size
+  - Learning rate
+- Automated training loop and evaluation
 
-Optuna integration for tuning:
+## 🧠 Technologies Used
+- Python  
+- TensorFlow / Keras  
+- Optuna  
+- Numpy / Pandas  
+- Scikit-learn  
 
-Lookback window
+## 📊 Objective
+To predict future values in a time series by building a flexible, tunable LSTM model. The model dynamically adjusts to different time steps and uses Optuna to find the optimal hyperparameters for performance.
 
-Number of LSTM layers and units
+## 🧪 Workflow
+1. Load and preprocess time series data
+2. Automatically reshape data based on lookback
+3. Build LSTM model using dynamic architecture
+4. Use Optuna for hyperparameter tuning
+5. Train and evaluate the model
 
-Dropout rate
+## ▶️ How to Use
+Clone the repo and run the Jupyter notebook:
 
-Batch size
-
-Learning rate
-
-Automated training loop and evaluation
-
-🧠 Technologies
-Python
-
-TensorFlow / Keras
-
-Optuna
-
-Numpy / Pandas
-
-Scikit-learn
-
-🧪 Objective
-To predict future values in a univariate or multivariate time series by building a flexible, tunable LSTM model.
-
-📊 Usage
-bash
-Copy
-Edit
-Run the notebook: LSTM_Optuna_Shape_Automation_REG.ipynb
-📂 Files
-LSTM_Optuna_Shape_Automation_REG.ipynb: Full notebook with model, tuning, and evaluation.
+```bash
+git clone https://github.com/Muzammil550/lstm-optuna-timeseries.git
+cd lstm-optuna-timeseries
