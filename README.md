@@ -1,6 +1,10 @@
-# 📈 LSTM Time Series Forecasting with Optuna (Regression)
+# 📈 LSTM Time Series Forecasting with Optuna (Regression) Multivariate
 
 This project demonstrates how to build an **Automated LSTM model** for time series regression using **Keras** and **Optuna** for hyperparameter tuning.
+
+Before we Begin lets view at the end result, how well the model is able to predict **Train vs Test**.
+
+<img width="1998" height="1081" alt="Screenshot 2025-06-08 181605" src="https://github.com/user-attachments/assets/18245bad-1966-40f6-ad0e-b9430d25a477" />
 
 ## 🚀 Features
 - Dynamic input reshaping based on time steps
